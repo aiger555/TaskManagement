@@ -8,7 +8,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ChoiceBox?>
-<?import javafx.scene.control.DatePicker?> <!-- Add DatePicker import -->
+<?import javafx.scene.control.DatePicker?> 
 
 <?import javafx.collections.FXCollections?>
 <?import java.lang.String?>
@@ -36,7 +36,7 @@
             </FXCollections>
         </items>
     </ChoiceBox>
-    <DatePicker fx:id="deadlineDatePicker" promptText="Deadline" /> <!-- Add DatePicker control -->
+    <DatePicker fx:id="deadlineDatePicker" promptText="Deadline" /> 
     <Button text="Add Task" onAction="#onAddTaskClick" />
     <Button text="Mark as Completed" onAction="#onCompleteTaskClick" />
     <Label fx:id="selectedText" />
